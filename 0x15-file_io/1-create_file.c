@@ -1,5 +1,7 @@
 #include "main.h"
-* create_file - creates a file
+
+/**
+ * create_file - creates a file
  * @filename: filename.
  * @text_content: content writed in the file.
  *
@@ -11,8 +13,6 @@ int create_file(const char *filename, char *text_content)
 	int nletters;
 	int rwr;
 
-
-/**
 	if (!filename)
 		return (-1);
 
